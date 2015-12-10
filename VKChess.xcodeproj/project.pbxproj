@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0208611B09C1F900C6A39A /* VKSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE93BBEB1B051058002D9F0C /* VKSdk.framework */; };
+		CE5DE8AC1B05EDA800AFE421 /* ApiCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DE89E1B05EDA800AFE421 /* ApiCallViewController.m */; };
+		CE5DE8AD1B05EDA800AFE421 /* ChessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DE8A01B05EDA800AFE421 /* ChessModel.m */; };
+		CE5DE8AE1B05EDA800AFE421 /* ChessStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8A11B05EDA800AFE421 /* ChessStoryboard.storyboard */; };
+		CE5DE8AF1B05EDA800AFE421 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DE8A31B05EDA800AFE421 /* Figure.m */; };
+		CE5DE8B01B05EDA800AFE421 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DE8A51B05EDA800AFE421 /* GameView.m */; };
+		CE5DE8B11B05EDA800AFE421 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DE8A71B05EDA800AFE421 /* TestViewController.m */; };
+		CE5DE8B21B05EDA800AFE421 /* VKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DE8A91B05EDA800AFE421 /* VKAppDelegate.m */; };
+		CE5DE8B31B05EDA800AFE421 /* VKStartScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DE8AB1B05EDA800AFE421 /* VKStartScreen.m */; };
+		CE5DE8C31B05EEBA00AFE421 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8B41B05EE8C00AFE421 /* black.png */; };
+		CE5DE8C41B05EEBA00AFE421 /* belephant.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8B61B05EE8C00AFE421 /* belephant.png */; };
+		CE5DE8C51B05EEBA00AFE421 /* bhorse.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8B71B05EE8C00AFE421 /* bhorse.png */; };
+		CE5DE8C61B05EEBA00AFE421 /* bking.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8B81B05EE8C00AFE421 /* bking.png */; };
+		CE5DE8C71B05EEBA00AFE421 /* bpawn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8B91B05EE8C00AFE421 /* bpawn.png */; };
+		CE5DE8C81B05EEBA00AFE421 /* bqueen.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8BA1B05EE8C00AFE421 /* bqueen.png */; };
+		CE5DE8C91B05EEBA00AFE421 /* brook.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8BB1B05EE8C00AFE421 /* brook.png */; };
+		CE5DE8CA1B05EEBA00AFE421 /* welephant.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8BC1B05EE8C00AFE421 /* welephant.png */; };
+		CE5DE8CB1B05EEBA00AFE421 /* whorse.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8BD1B05EE8C00AFE421 /* whorse.png */; };
+		CE5DE8CC1B05EEBA00AFE421 /* wking.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8BE1B05EE8C00AFE421 /* wking.png */; };
+		CE5DE8CD1B05EEBA00AFE421 /* wpawn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8BF1B05EE8C00AFE421 /* wpawn.png */; };
+		CE5DE8CE1B05EEBA00AFE421 /* wqueen.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8C01B05EE8C00AFE421 /* wqueen.png */; };
+		CE5DE8CF1B05EEBA00AFE421 /* wrook.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8C11B05EE8C00AFE421 /* wrook.png */; };
+		CE5DE8D01B05EEBA00AFE421 /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5DE8C21B05EE8C00AFE421 /* white.jpg */; };
+		CE93BBEE1B051071002D9F0C /* VKSdkResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE93BBED1B051071002D9F0C /* VKSdkResources.bundle */; };
+		F36114C21976DC770085898F /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = F36114C11976DC770085898F /* apple.png */; };
+		F3EEFF6A1827B1DD000BB525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EEFF691827B1DD000BB525 /* Foundation.framework */; };
+		F3EEFF6C1827B1DD000BB525 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EEFF6B1827B1DD000BB525 /* CoreGraphics.framework */; };
+		F3EEFF6E1827B1DD000BB525 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EEFF6D1827B1DD000BB525 /* UIKit.framework */; };
+		F3EEFF741827B1DD000BB525 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3EEFF721827B1DD000BB525 /* InfoPlist.strings */; };
+		F3EEFF761827B1DD000BB525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EEFF751827B1DD000BB525 /* main.m */; };
+		F3EEFF7C1827B1DD000BB525 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EEFF7B1827B1DD000BB525 /* Images.xcassets */; };
+		F3EEFFCE1827F9AF000BB525 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EEFFCD1827F9AF000BB525 /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE5DE89D1B05EDA800AFE421 /* ApiCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiCallViewController.h; path = ../ApiCallViewController.h; sourceTree = "<group>"; };
+		CE5DE89E1B05EDA800AFE421 /* ApiCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiCallViewController.m; path = ../ApiCallViewController.m; sourceTree = "<group>"; };
+		CE5DE89F1B05EDA800AFE421 /* ChessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChessModel.h; path = ../ChessModel.h; sourceTree = "<group>"; };
+		CE5DE8A01B05EDA800AFE421 /* ChessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChessModel.m; path = ../ChessModel.m; sourceTree = "<group>"; };
+		CE5DE8A11B05EDA800AFE421 /* ChessStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ChessStoryboard.storyboard; path = ../ChessStoryboard.storyboard; sourceTree = "<group>"; };
+		CE5DE8A21B05EDA800AFE421 /* Figure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Figure.h; path = ../Figure.h; sourceTree = "<group>"; };
+		CE5DE8A31B05EDA800AFE421 /* Figure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Figure.m; path = ../Figure.m; sourceTree = "<group>"; };
+		CE5DE8A41B05EDA800AFE421 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameView.h; path = ../GameView.h; sourceTree = "<group>"; };
+		CE5DE8A51B05EDA800AFE421 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameView.m; path = ../GameView.m; sourceTree = "<group>"; };
+		CE5DE8A61B05EDA800AFE421 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = ../TestViewController.h; sourceTree = "<group>"; };
+		CE5DE8A71B05EDA800AFE421 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = ../TestViewController.m; sourceTree = "<group>"; };
+		CE5DE8A81B05EDA800AFE421 /* VKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKAppDelegate.h; path = ../VKAppDelegate.h; sourceTree = "<group>"; };
+		CE5DE8A91B05EDA800AFE421 /* VKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKAppDelegate.m; path = ../VKAppDelegate.m; sourceTree = "<group>"; };
+		CE5DE8AA1B05EDA800AFE421 /* VKStartScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKStartScreen.h; path = ../VKStartScreen.h; sourceTree = "<group>"; };
+		CE5DE8AB1B05EDA800AFE421 /* VKStartScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKStartScreen.m; path = ../VKStartScreen.m; sourceTree = "<group>"; };
+		CE5DE8B41B05EE8C00AFE421 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		CE5DE8B61B05EE8C00AFE421 /* belephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = belephant.png; sourceTree = "<group>"; };
+		CE5DE8B71B05EE8C00AFE421 /* bhorse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bhorse.png; sourceTree = "<group>"; };
+		CE5DE8B81B05EE8C00AFE421 /* bking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bking.png; sourceTree = "<group>"; };
+		CE5DE8B91B05EE8C00AFE421 /* bpawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bpawn.png; sourceTree = "<group>"; };
+		CE5DE8BA1B05EE8C00AFE421 /* bqueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bqueen.png; sourceTree = "<group>"; };
+		CE5DE8BB1B05EE8C00AFE421 /* brook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brook.png; sourceTree = "<group>"; };
+		CE5DE8BC1B05EE8C00AFE421 /* welephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welephant.png; sourceTree = "<group>"; };
+		CE5DE8BD1B05EE8C00AFE421 /* whorse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whorse.png; sourceTree = "<group>"; };
+		CE5DE8BE1B05EE8C00AFE421 /* wking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wking.png; sourceTree = "<group>"; };
+		CE5DE8BF1B05EE8C00AFE421 /* wpawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wpawn.png; sourceTree = "<group>"; };
+		CE5DE8C01B05EE8C00AFE421 /* wqueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wqueen.png; sourceTree = "<group>"; };
+		CE5DE8C11B05EE8C00AFE421 /* wrook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrook.png; sourceTree = "<group>"; };
+		CE5DE8C21B05EE8C00AFE421 /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white.jpg; sourceTree = "<group>"; };
+		CE93BBEB1B051058002D9F0C /* VKSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdk.framework; path = ../VKSdk.framework; sourceTree = "<group>"; };
+		CE93BBED1B051071002D9F0C /* VKSdkResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = VKSdkResources.bundle; path = ../../VKSdkResources.bundle; sourceTree = "<group>"; };
+		F36114AA197687050085898F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F36114C11976DC770085898F /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		F3BACC301865902D003158DA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F3EEFF661827B1DD000BB525 /* VKChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EEFF691827B1DD000BB525 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3EEFF6B1827B1DD000BB525 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3EEFF6D1827B1DD000BB525 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3EEFF711827B1DD000BB525 /* VKChess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VKChess-Info.plist"; sourceTree = "<group>"; };
+		F3EEFF731827B1DD000BB525 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3EEFF751827B1DD000BB525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3EEFF771827B1DD000BB525 /* VKChess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VKChess-Prefix.pch"; sourceTree = "<group>"; };
+		F3EEFF7B1827B1DD000BB525 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3EEFFCD1827F9AF000BB525 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F3EEFFCF1827F9B5000BB525 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3EEFF631827B1DD000BB525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0208611B09C1F900C6A39A /* VKSdk.framework in Frameworks */,
+				F3EEFFCE1827F9AF000BB525 /* MobileCoreServices.framework in Frameworks */,
+				F3EEFF6C1827B1DD000BB525 /* CoreGraphics.framework in Frameworks */,
+				F3EEFF6E1827B1DD000BB525 /* UIKit.framework in Frameworks */,
+				F3EEFF6A1827B1DD000BB525 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5DE8B51B05EE8C00AFE421 /* Figures */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DE8B61B05EE8C00AFE421 /* belephant.png */,
+				CE5DE8B71B05EE8C00AFE421 /* bhorse.png */,
+				CE5DE8B81B05EE8C00AFE421 /* bking.png */,
+				CE5DE8B91B05EE8C00AFE421 /* bpawn.png */,
+				CE5DE8BA1B05EE8C00AFE421 /* bqueen.png */,
+				CE5DE8BB1B05EE8C00AFE421 /* brook.png */,
+				CE5DE8BC1B05EE8C00AFE421 /* welephant.png */,
+				CE5DE8BD1B05EE8C00AFE421 /* whorse.png */,
+				CE5DE8BE1B05EE8C00AFE421 /* wking.png */,
+				CE5DE8BF1B05EE8C00AFE421 /* wpawn.png */,
+				CE5DE8C01B05EE8C00AFE421 /* wqueen.png */,
+				CE5DE8C11B05EE8C00AFE421 /* wrook.png */,
+			);
+			path = Figures;
+			sourceTree = "<group>";
+		};
+		F3EEFF5D1827B1DD000BB525 = {
+			isa = PBXGroup;
+			children = (
+				CE5DE89D1B05EDA800AFE421 /* ApiCallViewController.h */,
+				CE5DE89E1B05EDA800AFE421 /* ApiCallViewController.m */,
+				CE5DE89F1B05EDA800AFE421 /* ChessModel.h */,
+				CE5DE8A01B05EDA800AFE421 /* ChessModel.m */,
+				CE5DE8A21B05EDA800AFE421 /* Figure.h */,
+				CE5DE8A31B05EDA800AFE421 /* Figure.m */,
+				CE5DE8A41B05EDA800AFE421 /* GameView.h */,
+				CE5DE8A51B05EDA800AFE421 /* GameView.m */,
+				CE5DE8A61B05EDA800AFE421 /* TestViewController.h */,
+				CE5DE8A71B05EDA800AFE421 /* TestViewController.m */,
+				CE5DE8A81B05EDA800AFE421 /* VKAppDelegate.h */,
+				CE5DE8A91B05EDA800AFE421 /* VKAppDelegate.m */,
+				CE5DE8AA1B05EDA800AFE421 /* VKStartScreen.h */,
+				CE5DE8AB1B05EDA800AFE421 /* VKStartScreen.m */,
+				CE5DE8A11B05EDA800AFE421 /* ChessStoryboard.storyboard */,
+				F3EEFF6F1827B1DD000BB525 /* VKChess */,
+				F3EEFF681827B1DD000BB525 /* Frameworks */,
+				F3EEFF671827B1DD000BB525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3EEFF671827B1DD000BB525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3EEFF661827B1DD000BB525 /* VKChess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3EEFF681827B1DD000BB525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE93BBEB1B051058002D9F0C /* VKSdk.framework */,
+				F3EEFFCF1827F9B5000BB525 /* SystemConfiguration.framework */,
+				F3EEFFCD1827F9AF000BB525 /* MobileCoreServices.framework */,
+				F3EEFF691827B1DD000BB525 /* Foundation.framework */,
+				F3EEFF6B1827B1DD000BB525 /* CoreGraphics.framework */,
+				F3EEFF6D1827B1DD000BB525 /* UIKit.framework */,
+				F3BACC301865902D003158DA /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3EEFF6F1827B1DD000BB525 /* VKChess */ = {
+			isa = PBXGroup;
+			children = (
+				F3EEFF7B1827B1DD000BB525 /* Images.xcassets */,
+				F3EEFF701827B1DD000BB525 /* Supporting Files */,
+			);
+			name = VKChess;
+			path = VKSDKTestApplication;
+			sourceTree = "<group>";
+		};
+		F3EEFF701827B1DD000BB525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3EEFF751827B1DD000BB525 /* main.m */,
+				F3EEFF771827B1DD000BB525 /* VKChess-Prefix.pch */,
+				CE5DE8B51B05EE8C00AFE421 /* Figures */,
+				F36114C11976DC770085898F /* apple.png */,
+				CE5DE8B41B05EE8C00AFE421 /* black.png */,
+				CE5DE8C21B05EE8C00AFE421 /* white.jpg */,
+				F3EEFF711827B1DD000BB525 /* VKChess-Info.plist */,
+				F3EEFF721827B1DD000BB525 /* InfoPlist.strings */,
+				CE93BBED1B051071002D9F0C /* VKSdkResources.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3EEFF651827B1DD000BB525 /* VKChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EEFF921827B1DE000BB525 /* Build configuration list for PBXNativeTarget "VKChess" */;
+			buildPhases = (
+				F3EEFF621827B1DD000BB525 /* Sources */,
+				F3EEFF631827B1DD000BB525 /* Frameworks */,
+				F3EEFF641827B1DD000BB525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKChess;
+			productName = VKSDKTestApplication;
+			productReference = F3EEFF661827B1DD000BB525 /* VKChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3EEFF5E1827B1DD000BB525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = VK;
+				TargetAttributes = {
+					F3EEFF651827B1DD000BB525 = {
+						DevelopmentTeam = LWX893Y7GW;
+					};
+				};
+			};
+			buildConfigurationList = F3EEFF611827B1DD000BB525 /* Build configuration list for PBXProject "VKChess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+			);
+			mainGroup = F3EEFF5D1827B1DD000BB525;
+			productRefGroup = F3EEFF671827B1DD000BB525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3EEFF651827B1DD000BB525 /* VKChess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3EEFF641827B1DD000BB525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5DE8C31B05EEBA00AFE421 /* black.png in Resources */,
+				CE5DE8C41B05EEBA00AFE421 /* belephant.png in Resources */,
+				CE5DE8C51B05EEBA00AFE421 /* bhorse.png in Resources */,
+				CE5DE8C61B05EEBA00AFE421 /* bking.png in Resources */,
+				CE5DE8C71B05EEBA00AFE421 /* bpawn.png in Resources */,
+				CE5DE8C81B05EEBA00AFE421 /* bqueen.png in Resources */,
+				CE5DE8C91B05EEBA00AFE421 /* brook.png in Resources */,
+				CE5DE8CA1B05EEBA00AFE421 /* welephant.png in Resources */,
+				CE5DE8CB1B05EEBA00AFE421 /* whorse.png in Resources */,
+				CE5DE8CC1B05EEBA00AFE421 /* wking.png in Resources */,
+				CE5DE8CD1B05EEBA00AFE421 /* wpawn.png in Resources */,
+				CE5DE8CE1B05EEBA00AFE421 /* wqueen.png in Resources */,
+				CE5DE8CF1B05EEBA00AFE421 /* wrook.png in Resources */,
+				CE5DE8D01B05EEBA00AFE421 /* white.jpg in Resources */,
+				CE93BBEE1B051071002D9F0C /* VKSdkResources.bundle in Resources */,
+				F3EEFF741827B1DD000BB525 /* InfoPlist.strings in Resources */,
+				CE5DE8AE1B05EDA800AFE421 /* ChessStoryboard.storyboard in Resources */,
+				F3EEFF7C1827B1DD000BB525 /* Images.xcassets in Resources */,
+				F36114C21976DC770085898F /* apple.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3EEFF621827B1DD000BB525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5DE8B11B05EDA800AFE421 /* TestViewController.m in Sources */,
+				CE5DE8B31B05EDA800AFE421 /* VKStartScreen.m in Sources */,
+				F3EEFF761827B1DD000BB525 /* main.m in Sources */,
+				CE5DE8B21B05EDA800AFE421 /* VKAppDelegate.m in Sources */,
+				CE5DE8B01B05EDA800AFE421 /* GameView.m in Sources */,
+				CE5DE8AF1B05EDA800AFE421 /* Figure.m in Sources */,
+				CE5DE8AC1B05EDA800AFE421 /* ApiCallViewController.m in Sources */,
+				CE5DE8AD1B05EDA800AFE421 /* ChessModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3EEFF721827B1DD000BB525 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3EEFF731827B1DD000BB525 /* en */,
+				F36114AA197687050085898F /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3EEFF901827B1DE000BB525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3EEFF911827B1DE000BB525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3EEFF931827B1DE000BB525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/..",
+					"$(SRCROOT)/../sdk/**",
+					"/Users/user/Desktop/vk-chess/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKSDKTestApplication/VKChess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"VKDEBUG=1",
+				);
+				INFOPLIST_FILE = "VKSDKTestApplication/VKChess-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/romantruba/Documents/projects/vk-ios-sdk-pub/sdk/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3EEFF941827B1DE000BB525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/..",
+					"$(SRCROOT)/../sdk/**",
+					"/Users/user/Desktop/vk-chess/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKSDKTestApplication/VKChess-Prefix.pch";
+				INFOPLIST_FILE = "VKSDKTestApplication/VKChess-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/romantruba/Documents/projects/vk-ios-sdk-pub/sdk/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3EEFF611827B1DD000BB525 /* Build configuration list for PBXProject "VKChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EEFF901827B1DE000BB525 /* Debug */,
+				F3EEFF911827B1DE000BB525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3EEFF921827B1DE000BB525 /* Build configuration list for PBXNativeTarget "VKChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EEFF931827B1DE000BB525 /* Debug */,
+				F3EEFF941827B1DE000BB525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3EEFF5E1827B1DD000BB525 /* Project object */;
+}
